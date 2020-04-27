@@ -16,7 +16,10 @@ public class  Teacher{
 	     return name;
      }
 
-
+     public String toString(){
+        
+	     return "Teacher [id"+this.id+"name"+this.name+"]";
+     }
  
 }
 
